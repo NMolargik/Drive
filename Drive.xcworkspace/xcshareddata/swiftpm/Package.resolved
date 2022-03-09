@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "d2f7ba14bcdc45e18f4f60ad9df883fb9055f081",
+          "version": "6.15.3"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "97e14358a3e6564de8a6289362385a92d85936e1",
+          "version": "6.0.0-rc.2"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "TeslaSwift",
+        "repositoryURL": "https://github.com/jonasman/TeslaSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "6975540d5504fd2e46d3e3e286759bd98efa7d46",
+          "version": "7.0.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,27 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C36B566628A3EA1F0EBDB17 /* Pods_Drive__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D549ECF268C10783C9D145D /* Pods_Drive__iOS_.framework */; };
+		EB390AC426C95EB3004CAC3E /* TeslaSwiftStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = EB390AC326C95EB3004CAC3E /* TeslaSwiftStreaming */; };
+		EB390AC626C95EB3004CAC3E /* TeslaSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB390AC526C95EB3004CAC3E /* TeslaSwift */; };
+		EB3C386A26C7D716000241A4 /* PowerMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C386926C7D716000241A4 /* PowerMeter.swift */; };
+		EB3C386F26C7F101000241A4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C386E26C7F101000241A4 /* MapView.swift */; };
 		EB6A08022643724D0012417E /* DriveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A07EF2643724C0012417E /* DriveApp.swift */; };
-		EB6A08032643724D0012417E /* DriveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A07EF2643724C0012417E /* DriveApp.swift */; };
-		EB6A08042643724D0012417E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A07F02643724C0012417E /* ContentView.swift */; };
-		EB6A08052643724D0012417E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A07F02643724C0012417E /* ContentView.swift */; };
 		EB6A08062643724D0012417E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A07F12643724D0012417E /* Assets.xcassets */; };
-		EB6A08072643724D0012417E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A07F12643724D0012417E /* Assets.xcassets */; };
+		EB6A0811264373840012417E /* TeslaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0810264373840012417E /* TeslaClass.swift */; };
+		EB6A0817264375240012417E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0816264375240012417E /* SplashView.swift */; };
+		EB6A081A264375840012417E /* WebAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0819264375840012417E /* WebAuthView.swift */; };
+		EB6A081F26437D360012417E /* SelectableVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A081E26437D360012417E /* SelectableVehicle.swift */; };
+		EB6A082126438A420012417E /* VehicleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A082026438A420012417E /* VehicleSelection.swift */; };
+		EB6A08232644BB850012417E /* VehicleSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A08222644BB850012417E /* VehicleSplash.swift */; };
+		EB6CD1CD264B56C60075ACE5 /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1CC264B56C60075ACE5 /* DriveView.swift */; };
+		EB6CD1D1264B57710075ACE5 /* MediaControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1D0264B57710075ACE5 /* MediaControls.swift */; };
+		EB6CD1D4264B65370075ACE5 /* Gotham Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB6CD1D3264B65370075ACE5 /* Gotham Medium.otf */; };
+		EB6CD1D6264C8E430075ACE5 /* SelectableCarPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1D5264C8E430075ACE5 /* SelectableCarPhoto.swift */; };
+		EB6CD1D8264CA7530075ACE5 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1D7264CA7530075ACE5 /* Temperature.swift */; };
+		EB6CD1DA264CA7C80075ACE5 /* ClimateShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1D9264CA7C80075ACE5 /* ClimateShop.swift */; };
+		EB6CD1DE265058240075ACE5 /* StandaloneHeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CD1DD265058240075ACE5 /* StandaloneHeater.swift */; };
+		EBBDC2C926462D5900917251 /* SpecialButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDC2C826462D5900917251 /* SpecialButtons.swift */; };
+		EBBDC2CD264878D700917251 /* CardCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDC2CC264878D600917251 /* CardCarousel.swift */; };
+		EBBDC2CF2648BA2A00917251 /* Batteries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDC2CE2648BA2A00917251 /* Batteries.swift */; };
+		EBBDC2D12648C4BA00917251 /* SeatHeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDC2D02648C4BA00917251 /* SeatHeater.swift */; };
+		EBE7633F2644BCDF00406689 /* ControlHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE7633E2644BCDF00406689 /* ControlHub.swift */; };
+		EBE763412644C5AE00406689 /* ClimateSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE763402644C5AE00406689 /* ClimateSplash.swift */; };
+		EBE763432644C65D00406689 /* ChargingSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE763422644C65D00406689 /* ChargingSplash.swift */; };
+		EBE763452645D74400406689 /* BodyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE763442645D74400406689 /* BodyShop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158E853B8ACECCA263BE96E3 /* Pods-Drive (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drive (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Drive (iOS)/Pods-Drive (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		4D549ECF268C10783C9D145D /* Pods_Drive__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drive__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2BCD8194F8A08FD340ACBF /* Pods_Drive__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drive__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F96B34263172367618DE2F /* Pods-Drive (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drive (iOS).release.xcconfig"; path = "Target Support Files/Pods-Drive (iOS)/Pods-Drive (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		EB3C386926C7D716000241A4 /* PowerMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMeter.swift; sourceTree = "<group>"; };
+		EB3C386E26C7F101000241A4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EB6A07EF2643724C0012417E /* DriveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveApp.swift; sourceTree = "<group>"; };
-		EB6A07F02643724C0012417E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB6A07F12643724D0012417E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6A07F62643724D0012417E /* Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6A07F92643724D0012417E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB6A07FE2643724D0012417E /* Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB6A08002643724D0012417E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB6A08012643724D0012417E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EB6A0810264373840012417E /* TeslaClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaClass.swift; sourceTree = "<group>"; };
+		EB6A0816264375240012417E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EB6A0819264375840012417E /* WebAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthView.swift; sourceTree = "<group>"; };
+		EB6A081E26437D360012417E /* SelectableVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableVehicle.swift; sourceTree = "<group>"; };
+		EB6A082026438A420012417E /* VehicleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSelection.swift; sourceTree = "<group>"; };
+		EB6A08222644BB850012417E /* VehicleSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSplash.swift; sourceTree = "<group>"; };
+		EB6CD1CC264B56C60075ACE5 /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		EB6CD1D0264B57710075ACE5 /* MediaControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControls.swift; sourceTree = "<group>"; };
+		EB6CD1D3264B65370075ACE5 /* Gotham Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Medium.otf"; sourceTree = "<group>"; };
+		EB6CD1D5264C8E430075ACE5 /* SelectableCarPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCarPhoto.swift; sourceTree = "<group>"; };
+		EB6CD1D7264CA7530075ACE5 /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		EB6CD1D9264CA7C80075ACE5 /* ClimateShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateShop.swift; sourceTree = "<group>"; };
+		EB6CD1DD265058240075ACE5 /* StandaloneHeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandaloneHeater.swift; sourceTree = "<group>"; };
+		EBBDC2C826462D5900917251 /* SpecialButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialButtons.swift; sourceTree = "<group>"; };
+		EBBDC2CC264878D600917251 /* CardCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarousel.swift; sourceTree = "<group>"; };
+		EBBDC2CE2648BA2A00917251 /* Batteries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batteries.swift; sourceTree = "<group>"; };
+		EBBDC2D02648C4BA00917251 /* SeatHeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatHeater.swift; sourceTree = "<group>"; };
+		EBE7633E2644BCDF00406689 /* ControlHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlHub.swift; sourceTree = "<group>"; };
+		EBE763402644C5AE00406689 /* ClimateSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateSplash.swift; sourceTree = "<group>"; };
+		EBE763422644C65D00406689 /* ChargingSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingSplash.swift; sourceTree = "<group>"; };
+		EBE763442645D74400406689 /* BodyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyShop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +76,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB6A07FB2643724D0012417E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4C36B566628A3EA1F0EBDB17 /* Pods_Drive__iOS_.framework in Frameworks */,
+				EB390AC626C95EB3004CAC3E /* TeslaSwift in Frameworks */,
+				EB390AC426C95EB3004CAC3E /* TeslaSwiftStreaming in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75A70B79DC7E8FC63743F9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D549ECF268C10783C9D145D /* Pods_Drive__iOS_.framework */,
+				6B2BCD8194F8A08FD340ACBF /* Pods_Drive__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1393026A9F83EFF5A8AF784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158E853B8ACECCA263BE96E3 /* Pods-Drive (iOS).debug.xcconfig */,
+				D2F96B34263172367618DE2F /* Pods-Drive (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB3C386B26C7D8BE000241A4 /* Drive View */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CD1CC264B56C60075ACE5 /* DriveView.swift */,
+				EB3C386E26C7F101000241A4 /* MapView.swift */,
+			);
+			path = "Drive View";
+			sourceTree = "<group>";
+		};
 		EB6A07E92643724C0012417E = {
 			isa = PBXGroup;
 			children = (
+				EB6A07F12643724D0012417E /* Assets.xcassets */,
 				EB6A07EE2643724C0012417E /* Shared */,
 				EB6A07F82643724D0012417E /* iOS */,
-				EB6A07FF2643724D0012417E /* macOS */,
 				EB6A07F72643724D0012417E /* Products */,
+				B1393026A9F83EFF5A8AF784 /* Pods */,
+				75A70B79DC7E8FC63743F9C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				EB6A07EF2643724C0012417E /* DriveApp.swift */,
-				EB6A07F02643724C0012417E /* ContentView.swift */,
-				EB6A07F12643724D0012417E /* Assets.xcassets */,
+				EB6A0810264373840012417E /* TeslaClass.swift */,
+				EB6A08242644D1B30012417E /* Ingress */,
+				EB6CD1CE264B56CB0075ACE5 /* ControlViews */,
+				EB6CD1CF264B56FE0075ACE5 /* Elements */,
+				EB6CD1D2264B65180075ACE5 /* Font */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -68,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				EB6A07F62643724D0012417E /* Drive.app */,
-				EB6A07FE2643724D0012417E /* Drive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +153,53 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		EB6A07FF2643724D0012417E /* macOS */ = {
+		EB6A08242644D1B30012417E /* Ingress */ = {
 			isa = PBXGroup;
 			children = (
-				EB6A08002643724D0012417E /* Info.plist */,
-				EB6A08012643724D0012417E /* macOS.entitlements */,
+				EB6A0816264375240012417E /* SplashView.swift */,
+				EB6A0819264375840012417E /* WebAuthView.swift */,
+				EB6A082026438A420012417E /* VehicleSelection.swift */,
+				EB6A081E26437D360012417E /* SelectableVehicle.swift */,
+				EB6CD1D5264C8E430075ACE5 /* SelectableCarPhoto.swift */,
 			);
-			path = macOS;
+			path = Ingress;
+			sourceTree = "<group>";
+		};
+		EB6CD1CE264B56CB0075ACE5 /* ControlViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB3C386B26C7D8BE000241A4 /* Drive View */,
+				EBE7633E2644BCDF00406689 /* ControlHub.swift */,
+				EB6CD1D0264B57710075ACE5 /* MediaControls.swift */,
+				EB6A08222644BB850012417E /* VehicleSplash.swift */,
+				EBE763402644C5AE00406689 /* ClimateSplash.swift */,
+				EB6CD1D9264CA7C80075ACE5 /* ClimateShop.swift */,
+				EBE763422644C65D00406689 /* ChargingSplash.swift */,
+			);
+			path = ControlViews;
+			sourceTree = "<group>";
+		};
+		EB6CD1CF264B56FE0075ACE5 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CD1DD265058240075ACE5 /* StandaloneHeater.swift */,
+				EBBDC2CE2648BA2A00917251 /* Batteries.swift */,
+				EB6CD1D7264CA7530075ACE5 /* Temperature.swift */,
+				EBBDC2D02648C4BA00917251 /* SeatHeater.swift */,
+				EBE763442645D74400406689 /* BodyShop.swift */,
+				EBBDC2CC264878D600917251 /* CardCarousel.swift */,
+				EBBDC2C826462D5900917251 /* SpecialButtons.swift */,
+				EB3C386926C7D716000241A4 /* PowerMeter.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		EB6CD1D2264B65180075ACE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CD1D3264B65370075ACE5 /* Gotham Medium.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,34 +209,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB6A080A2643724D0012417E /* Build configuration list for PBXNativeTarget "Drive (iOS)" */;
 			buildPhases = (
+				85A6B32097397FE938EF784E /* [CP] Check Pods Manifest.lock */,
 				EB6A07F22643724D0012417E /* Sources */,
 				EB6A07F32643724D0012417E /* Frameworks */,
 				EB6A07F42643724D0012417E /* Resources */,
+				A3F211244FCC94FF031B419C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Drive (iOS)";
+			packageProductDependencies = (
+				EB390AC326C95EB3004CAC3E /* TeslaSwiftStreaming */,
+				EB390AC526C95EB3004CAC3E /* TeslaSwift */,
+			);
 			productName = "Drive (iOS)";
 			productReference = EB6A07F62643724D0012417E /* Drive.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EB6A07FD2643724D0012417E /* Drive (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB6A080D2643724D0012417E /* Build configuration list for PBXNativeTarget "Drive (macOS)" */;
-			buildPhases = (
-				EB6A07FA2643724D0012417E /* Sources */,
-				EB6A07FB2643724D0012417E /* Frameworks */,
-				EB6A07FC2643724D0012417E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Drive (macOS)";
-			productName = "Drive (macOS)";
-			productReference = EB6A07FE2643724D0012417E /* Drive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,9 +240,6 @@
 					EB6A07F52643724D0012417E = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					EB6A07FD2643724D0012417E = {
-						CreatedOnToolsVersion = 12.5;
-					};
 				};
 			};
 			buildConfigurationList = EB6A07ED2643724C0012417E /* Build configuration list for PBXProject "Drive" */;
@@ -153,12 +251,14 @@
 				Base,
 			);
 			mainGroup = EB6A07E92643724C0012417E;
+			packageReferences = (
+				EB390AC226C95EB3004CAC3E /* XCRemoteSwiftPackageReference "TeslaSwift" */,
+			);
 			productRefGroup = EB6A07F72643724D0012417E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EB6A07F52643724D0012417E /* Drive (iOS) */,
-				EB6A07FD2643724D0012417E /* Drive (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -169,35 +269,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6A08062643724D0012417E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB6A07FC2643724D0012417E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB6A08072643724D0012417E /* Assets.xcassets in Resources */,
+				EB6CD1D4264B65370075ACE5 /* Gotham Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85A6B32097397FE938EF784E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drive (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F211244FCC94FF031B419C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drive (iOS)/Pods-Drive (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drive (iOS)/Pods-Drive (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Drive (iOS)/Pods-Drive (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB6A07F22643724D0012417E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6A08042643724D0012417E /* ContentView.swift in Sources */,
+				EB6A081F26437D360012417E /* SelectableVehicle.swift in Sources */,
+				EB6A08232644BB850012417E /* VehicleSplash.swift in Sources */,
+				EBE763432644C65D00406689 /* ChargingSplash.swift in Sources */,
+				EB6A0811264373840012417E /* TeslaClass.swift in Sources */,
+				EB6A0817264375240012417E /* SplashView.swift in Sources */,
+				EBE763412644C5AE00406689 /* ClimateSplash.swift in Sources */,
+				EB6A081A264375840012417E /* WebAuthView.swift in Sources */,
+				EBBDC2CD264878D700917251 /* CardCarousel.swift in Sources */,
+				EB6CD1D1264B57710075ACE5 /* MediaControls.swift in Sources */,
+				EB3C386F26C7F101000241A4 /* MapView.swift in Sources */,
+				EBE763452645D74400406689 /* BodyShop.swift in Sources */,
+				EBBDC2C926462D5900917251 /* SpecialButtons.swift in Sources */,
 				EB6A08022643724D0012417E /* DriveApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB6A07FA2643724D0012417E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB6A08052643724D0012417E /* ContentView.swift in Sources */,
-				EB6A08032643724D0012417E /* DriveApp.swift in Sources */,
+				EBBDC2CF2648BA2A00917251 /* Batteries.swift in Sources */,
+				EB6CD1D6264C8E430075ACE5 /* SelectableCarPhoto.swift in Sources */,
+				EBBDC2D12648C4BA00917251 /* SeatHeater.swift in Sources */,
+				EB6CD1D8264CA7530075ACE5 /* Temperature.swift in Sources */,
+				EB6A082126438A420012417E /* VehicleSelection.swift in Sources */,
+				EB3C386A26C7D716000241A4 /* PowerMeter.swift in Sources */,
+				EB6CD1DE265058240075ACE5 /* StandaloneHeater.swift in Sources */,
+				EB6CD1DA264CA7C80075ACE5 /* ClimateShop.swift in Sources */,
+				EBE7633F2644BCDF00406689 /* ControlHub.swift in Sources */,
+				EB6CD1CD264B56C60075ACE5 /* DriveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +464,7 @@
 		};
 		EB6A080B2643724D0012417E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158E853B8ACECCA263BE96E3 /* Pods-Drive (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +472,7 @@
 				DEVELOPMENT_TEAM = R8Q8DM58C6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +487,7 @@
 		};
 		EB6A080C2643724D0012417E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F96B34263172367618DE2F /* Pods-Drive (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,7 +495,7 @@
 				DEVELOPMENT_TEAM = R8Q8DM58C6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,54 +506,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EB6A080E2643724D0012417E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R8Q8DM58C6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasmolargik.Drive;
-				PRODUCT_NAME = Drive;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		EB6A080F2643724D0012417E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R8Q8DM58C6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasmolargik.Drive;
-				PRODUCT_NAME = Drive;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -429,16 +530,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6A080D2643724D0012417E /* Build configuration list for PBXNativeTarget "Drive (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB6A080E2643724D0012417E /* Debug */,
-				EB6A080F2643724D0012417E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB390AC226C95EB3004CAC3E /* XCRemoteSwiftPackageReference "TeslaSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonasman/TeslaSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB390AC326C95EB3004CAC3E /* TeslaSwiftStreaming */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB390AC226C95EB3004CAC3E /* XCRemoteSwiftPackageReference "TeslaSwift" */;
+			productName = TeslaSwiftStreaming;
+		};
+		EB390AC526C95EB3004CAC3E /* TeslaSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB390AC226C95EB3004CAC3E /* XCRemoteSwiftPackageReference "TeslaSwift" */;
+			productName = TeslaSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB6A07EA2643724C0012417E /* Project object */;
 }

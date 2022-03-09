@@ -1,0 +1,50 @@
+PODS:
+  - PromiseKit (6.17.0):
+    - PromiseKit/CorePromise (= 6.17.0)
+    - PromiseKit/Foundation (= 6.17.0)
+    - PromiseKit/UIKit (= 6.17.0)
+  - PromiseKit/CorePromise (6.17.0)
+  - PromiseKit/Foundation (6.17.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.17.0):
+    - PromiseKit/CorePromise
+  - RxCocoa (6.0.0-rc.2):
+    - RxRelay (= 6.0.0-rc.2)
+    - RxSwift (= 6.0.0-rc.2)
+  - RxRelay (6.0.0-rc.2):
+    - RxSwift (= 6.0.0-rc.2)
+  - RxSwift (6.0.0-rc.2)
+  - Starscream (4.0.4)
+  - TeslaSwift/Core (7.1.0)
+  - TeslaSwift/Streaming (7.1.0):
+    - Starscream (~> 4)
+    - TeslaSwift/Core
+  - TeslaSwift/StreamingRx (7.1.0):
+    - RxCocoa (= 6.0.0-rc.2)
+    - RxSwift (= 6.0.0-rc.2)
+    - TeslaSwift/Streaming
+
+DEPENDENCIES:
+  - PromiseKit (~> 6.8)
+  - TeslaSwift/StreamingRx (~> 7)
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Starscream
+    - TeslaSwift
+
+SPEC CHECKSUMS:
+  PromiseKit: 996202d4cae72b7801b312abef4cd2f995b2978a
+  RxCocoa: 38445a25751be5907f52f7ea02c137f52ce2e7f2
+  RxRelay: b9e2483e83f46e4e7bf1234c6fe418e5c2eaf825
+  RxSwift: ada35be6643bedf6881cdbd6bbfb27aeea527670
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TeslaSwift: a24d33ae35dfb827418c6c6c8daf11a0bbe898fc
+
+PODFILE CHECKSUM: 34a556bc5004519cffc494449bad5f2cebe01d32
+
+COCOAPODS: 1.11.2

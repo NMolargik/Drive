@@ -1,0 +1,6 @@
+framework module Pods_Drive__iOS_ {
+  umbrella header "Pods-Drive (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
